@@ -184,28 +184,28 @@ void Poker::makerNeed()
     {
         if (getTotalP() > getTotalM())
         {
-            cout<<"莊家的牌為"<<getTotalM<<endl;
-            cout<<"你贏了，你贏了"<<bet<<"元"<<endl;
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "你贏了，你贏了" << bet << "元" << endl;
             money=money+bet;
             inputBut();
             inrePoker();
         }
         else if (getTotalP() = getTotalM())
         {
-            cout<<"莊家的牌為"<<getTotalM<<endl;
-            cout<<"你運氣很好喔~~這局平手"<<endl;
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "你運氣很好喔~~這局平手" << endl;
             inputBut();
             inrePoker();
         }
         else if (getTotalP() < getTotalM())
         {
-            cout<<"莊家的牌為"<<getTotalM<<endl;
-            cout<<"你輸了，你輸了"<<bet<<"元"<<endl;
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "你輸了，你輸了" << bet << "元" << endl;
             money=money-bet;
             if(money<=0)
             {
-                cout<<"笑死，怎那麼菜把錢輸光光"<<endl;
-                cout<<"別想再玩了，遊戲結束!!!!!!!!!!!!!!!"<<endl;
+                cout << "笑死，怎那麼菜把錢輸光光" << endl;
+                cout << "別想再玩了，遊戲結束!!!!!!!!!!!!!!!" << endl;
                 exit(0);
             }
             inputBut();
@@ -217,12 +217,59 @@ void Poker::makerNeed()
         pokerM[porkNumM++]=randNum[j++];
         if(getTotalM()>21)
         {
-            cout<<"莊家的牌為"<<getTotalM<<endl;
-            cout<<"莊家爆了，你運氣真好，你贏了:"<<bet<<"元"<<endl;
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "莊家爆了，你運氣真好，你贏了:" << bet << "元" << endl;
             money=money+bet;
             inputBut();
             inrePoker();
         }
-        else landl
+        else Fold();
+    }
+}
+
+void Pork::newGame()
+{
+    inputBet();
+    rePoker();
+    cout << "你得到的牌" << getPokerP() <<endl;
+}
+
+void Pork::Ford()
+{
+    if(getTotalM()>=17)
+    {
+        if(getTotalM()>getTotalP())
+        {
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "你輸了，你輸了" << bet << "元" << endl;
+            money=money-bet;
+            if(money<=0)
+            {
+                cout << "笑死，那麼菜把錢輸光光" << endl;
+                cout << "別想再玩了，遊戲結束!!!!!!!!!!!!!!!" << endl;
+                exit(0);
+            }
+            inputBut();
+            inrePoker();
+        }
+        else if(getTotalM()==getTotalP())
+        {
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "你運氣很好喔~~這局平手" << endl;
+            inputBut();
+            inrePoker();
+        }
+        else
+        {
+            cout << "莊家的牌為" << getTotalM << endl;
+            cout << "你贏了，你贏了" << bet << "元" << endl;
+            money=money+bet;
+            inputBut();
+            inrePoker();
+        }
+        else
+        {
+            markerNeed();
+        }
     }
 }
