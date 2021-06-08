@@ -24,58 +24,58 @@ Poker::Poker()
         else              pokerNum[i] = 10;
     }
     pokerName[0] = " ";
-    pokerName[1] = "¶Â®çA";
-    pokerName[2] = "¶Â®ç2";
-    pokerName[3] = "¶Â®ç3";
-    pokerName[4] = "¶Â®ç4";
-    pokerName[5] = "¶Â®ç5";
-    pokerName[6] = "¶Â®ç6";
-    pokerName[7] = "¶Â®ç7";
-    pokerName[8] = "¶Â®ç8";
-    pokerName[9] = "¶Â®ç9";
-    pokerName[10] = "¶Â®ç10";
-    pokerName[11] = "¶Â®çJ";
-    pokerName[12] = "¶Â®çQ";
-    pokerName[13] = "¶Â®çK";
-    pokerName[14] = "¬õ¤ßA";
-    pokerName[15] = "¬õ¤ß2";
-    pokerName[16] = "¬õ¤ß3";
-    pokerName[17] = "¬õ¤ß4";
-    pokerName[18] = "¬õ¤ß5";
-    pokerName[19] = "¬õ¤ß6";
-    pokerName[20] = "¬õ¤ß7";
-    pokerName[21] = "¬õ¤ß8";
-    pokerName[22] = "¬õ¤ß9";
-    pokerName[23] = "¬õ¤ß10";
-    pokerName[24] = "¬õ¤ßJ";
-    pokerName[25] = "¬õ¤ßQ";
-    pokerName[26] = "¬õ¤ßK";
-    pokerName[27] = "¤è¶ôA";
-    pokerName[28] = "¤è¶ô2";
-    pokerName[29] = "¤è¶ô3";
-    pokerName[30] = "¤è¶ô4";
-    pokerName[31] = "¤è¶ô5";
-    pokerName[32] = "¤è¶ô6";
-    pokerName[33] = "¤è¶ô7";
-    pokerName[34] = "¤è¶ô8";
-    pokerName[35] = "¤è¶ô9";
-    pokerName[36] = "¤è¶ô10";
-    pokerName[37] = "¤è¶ôJ";
-    pokerName[38] = "¤è¶ôQ";
-    pokerName[39] = "¤è¶ôK";
-    pokerName[40] = "±öªáA";
-    pokerName[41] = "±öªá2";
-    pokerName[42] = "±öªá3";
-    pokerName[43] = "±öªá4";
-    pokerName[44] = "±öªá5";
-    pokerName[45] = "±öªá6";
-    pokerName[46] = "±öªá7";
-    pokerName[47] = "±öªá8";
-    pokerName[48] = "±öªá9";
-    pokerName[49] = "±öªá10";
-    pokerName[50] = "±öªáJ";
-    pokerName[51] = "±öªáQ";
-    pokerName[52] = "±öªáK";
+    pokerName[1] = "é»‘æ¡ƒA";
+    pokerName[2] = "é»‘æ¡ƒ2";
+    pokerName[3] = "é»‘æ¡ƒ3";
+    pokerName[4] = "é»‘æ¡ƒ4";
+    pokerName[5] = "é»‘æ¡ƒ5";
+    pokerName[6] = "é»‘æ¡ƒ6";
+    pokerName[7] = "é»‘æ¡ƒ7";
+    pokerName[8] = "é»‘æ¡ƒ8";
+    pokerName[9] = "é»‘æ¡ƒ9";
+    pokerName[10] = "é»‘æ¡ƒ10";
+    pokerName[11] = "é»‘æ¡ƒJ";
+    pokerName[12] = "é»‘æ¡ƒQ";
+    pokerName[13] = "é»‘æ¡ƒK";
+    pokerName[14] = "ç´…å¿ƒA";
+    pokerName[15] = "ç´…å¿ƒ2";
+    pokerName[16] = "ç´…å¿ƒ3";
+    pokerName[17] = "ç´…å¿ƒ4";
+    pokerName[18] = "ç´…å¿ƒ5";
+    pokerName[19] = "ç´…å¿ƒ6";
+    pokerName[20] = "ç´…å¿ƒ7";
+    pokerName[21] = "ç´…å¿ƒ8";
+    pokerName[22] = "ç´…å¿ƒ9";
+    pokerName[23] = "ç´…å¿ƒ10";
+    pokerName[24] = "ç´…å¿ƒJ";
+    pokerName[25] = "ç´…å¿ƒQ";
+    pokerName[26] = "ç´…å¿ƒK";
+    pokerName[27] = "æ–¹å¡ŠA";
+    pokerName[28] = "æ–¹å¡Š2";
+    pokerName[29] = "æ–¹å¡Š3";
+    pokerName[30] = "æ–¹å¡Š4";
+    pokerName[31] = "æ–¹å¡Š5";
+    pokerName[32] = "æ–¹å¡Š6";
+    pokerName[33] = "æ–¹å¡Š7";
+    pokerName[34] = "æ–¹å¡Š8";
+    pokerName[35] = "æ–¹å¡Š9";
+    pokerName[36] = "æ–¹å¡Š10";
+    pokerName[37] = "æ–¹å¡ŠJ";
+    pokerName[38] = "æ–¹å¡ŠQ";
+    pokerName[39] = "æ–¹å¡ŠK";
+    pokerName[40] = "æ¢…èŠ±A";
+    pokerName[41] = "æ¢…èŠ±2";
+    pokerName[42] = "æ¢…èŠ±3";
+    pokerName[43] = "æ¢…èŠ±4";
+    pokerName[44] = "æ¢…èŠ±5";
+    pokerName[45] = "æ¢…èŠ±6";
+    pokerName[46] = "æ¢…èŠ±7";
+    pokerName[47] = "æ¢…èŠ±8";
+    pokerName[48] = "æ¢…èŠ±9";
+    pokerName[49] = "æ¢…èŠ±10";
+    pokerName[50] = "æ¢…èŠ±J";
+    pokerName[51] = "æ¢…èŠ±Q";
+    pokerName[52] = "æ¢…èŠ±K";
     money = 300;
     bet = 0;
     for (int i = 0; i < 5; i++)
@@ -91,9 +91,19 @@ Poker::Poker()
         randNum[i] = rand() * 51 / 32767 + 1;
     }
 }
+void Poker::inputBut()
+{
+    cout << "ä½ ç¾åœ¨æœ‰" << money <<"å…ƒï¼Œè«‹è¼¸å…¥è³­æ³¨:"
+    do
+    {
+        cin>>bet;
+        if(bet>money)
+            cout << "å‚»ç“œï¼Œä½ å“ªä¾†é‚£éº¼å¤šéŒ¢(ê¦ à² çš¿à²  )ï¼Œé‡æ–°è¼¸å…¥è³­æ³¨å§å‚»å­:";
+    }while(bet>money);
+}
 void Poker::rePoker()
 {
-    cout << "·s¤@§½¹CÀ¸¶}©l¡A¶}©l¬~µP........" << endl;
+    cout << "æ–°ä¸€å±€éŠæˆ²é–‹å§‹ï¼Œé–‹å§‹æ´—ç‰Œ........" << endl;
 
     pokerM[0] = randNum[j++];  
     pokerM[1] = randNum[j++]; 
@@ -103,7 +113,7 @@ void Poker::rePoker()
     pokerNumM = 2;
     pokerNumP = 2;
 
-    cout << "¬~µP§¹¦¨,§AªºµP¬°:" << getPokerP() << endl;
+    cout << "æ´—ç‰Œå®Œæˆ,ä½ çš„ç‰Œç‚º:" << getPokerP() << endl;
 }
 string Poker::getPokerP()
 {
@@ -144,20 +154,20 @@ void Poker::playerNeed()
 {
     if (pokerNumP >= 5)
     {
-        cout << "§A¤w¸g¹L¤­Ãö¤F¡A¤£¯à¦A­nµP¤F" << endl;
+        cout << "ä½ å·²ç¶“éŽäº”é—œäº†ï¼Œä¸èƒ½å†è¦ç‰Œäº†" << endl;
         Fold();
     }
     else
     {
         pokerP[pokerNumP++] = randNum[j++];
-        cout << "§AªºµP¬°:" << getPokerP() << endl;
+        cout << "ä½ çš„ç‰Œç‚º:" << getPokerP() << endl;
         if (getTotalP() > 21)
         {
-            cout << "§AªºÂI¼Æ¤w¸gÃz¤F¡A§A¿é¤F"<<bet<<"¤¸"<< endl;
+            cout << "ä½ çš„é»žæ•¸å·²ç¶“çˆ†äº†ï¼Œä½ è¼¸äº†"<<bet<<"å…ƒ"<< endl;
             money = money - bet;
             if (money <= 0)
             {
-                cout << "§A¤w¸g¨S¿ú¤F~¡A¤U¦¸§V¤O"<<endl;
+                cout << "ä½ å·²ç¶“æ²’éŒ¢äº†~ï¼Œä¸‹æ¬¡åŠªåŠ›"<<endl;
                 cout << "GameOver!" << endl;
                 exit(0);
             }
@@ -174,7 +184,45 @@ void Poker::makerNeed()
     {
         if (getTotalP() > getTotalM())
         {
-            cout<<"²ø®aªºµP¬°"
+            cout<<"èŽŠå®¶çš„ç‰Œç‚º"<<getTotalM<<endl;
+            cout<<"ä½ è´äº†ï¼Œä½ è´äº†"<<bet<<"å…ƒ"<<endl;
+            money=money+bet;
+            inputBut();
+            inrePoker();
         }
+        else if (getTotalP() = getTotalM())
+        {
+            cout<<"èŽŠå®¶çš„ç‰Œç‚º"<<getTotalM<<endl;
+            cout<<"ä½ é‹æ°£å¾ˆå¥½å–”~~é€™å±€å¹³æ‰‹"<<endl;
+            inputBut();
+            inrePoker();
+        }
+        else if (getTotalP() < getTotalM())
+        {
+            cout<<"èŽŠå®¶çš„ç‰Œç‚º"<<getTotalM<<endl;
+            cout<<"ä½ è¼¸äº†ï¼Œä½ è¼¸äº†"<<bet<<"å…ƒ"<<endl;
+            money=money-bet;
+            if(money<=0)
+            {
+                cout<<"ç¬‘æ­»ï¼Œæ€Žé‚£éº¼èœæŠŠéŒ¢è¼¸å…‰å…‰"<<endl;
+                cout<<"åˆ¥æƒ³å†çŽ©äº†ï¼ŒéŠæˆ²çµæŸ!!!!!!!!!!!!!!!"<<endl;
+                exit(0);
+            }
+            inputBut();
+            inrePoker();
+        }
+    }
+    else
+    {
+        pokerM[porkNumM++]=randNum[j++];
+        if(getTotalM()>21)
+        {
+            cout<<"èŽŠå®¶çš„ç‰Œç‚º"<<getTotalM<<endl;
+            cout<<"èŽŠå®¶çˆ†äº†ï¼Œä½ é‹æ°£çœŸå¥½ï¼Œä½ è´äº†:"<<bet<<"å…ƒ"<<endl;
+            money=money+bet;
+            inputBut();
+            inrePoker();
+        }
+        else landl
     }
 }
